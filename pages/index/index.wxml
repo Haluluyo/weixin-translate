@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view class="container page-index">
+  <view class="change">
+    <navigator url="/pages/change/change" hover-class="navigator-hover">
+      <text>翻译成{{ curLanguage.chs }}</text>
+      <text class="iconfont icon-downdir"></text>
+    </navigator>
+  </view>
+  <view class="input-area">
+    <text class="iconfont icon-quxiao" hidden="{{hideCloseIcon}}" bindtap="onResetInput"></text>
+    <view class="textarea-wrap">
+      <textarea placeholder='请输入要翻译的文本' placeholder-style='color: #8985a1' bindinput='onInput' bindconfirm='onConfirm' bindblur='onConfirm' value='{{query}}'></textarea>
+    </view>
+  </view>
+  <view class="result-area">
+    <view class="text-title">译文</view>
+    <view class="text-result" wx:for="{{result}}" wx:key="index">
+      <text selectable='true'>{{item.dst}}</text>
+    </view>
+  </view>
+  <view class="copyright">
+    <text>© 2018  微信小程序_weixin-translator</text>
+  </view>
+</view>

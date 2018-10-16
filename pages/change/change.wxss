@@ -1,0 +1,31 @@
+.container{
+  background: #f8f8f8;
+}
+.page-change{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+  padding: 20rpx 40rpx;
+  color: #aaa;
+  font-size: 28rpx;
+}
+.lang-list{
+  background-color: #fff;
+}
+.lang-item{
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ececec;
+  padding:  20rpx 40rpx;
+}
+.item-text{
+  flex: 1;
+}
+.lang-item .iconfont{
+  margin-left: auto;
+  color: #aaa;
+}
+

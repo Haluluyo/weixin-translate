@@ -1,0 +1,54 @@
+/**index.wxss**/
+.change{
+  padding: 15rpx 30rpx;
+  display: flex;
+  align-items: center;
+  color: #8995a1;
+  font-size: 24rpx;
+}
+.change .icon-downdir{
+  color: #8995a1;
+  font-size: 20rpx;
+}
+
+.input-area{
+  position: relative;
+}
+.textarea-wrap{
+  background: #fff;
+  border-bottom: 1px solid #c7cee0;
+}
+.input-area textarea{
+  background-color: #fff;
+  padding: 28rpx 0 20rpx 28rpx;
+  width: calc(100% - 30rpx);
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 28rpx;
+}
+.input-area .icon-quxiao{
+  position: absolute;
+  right: 2rpx;
+  top: 4rpx;
+  z-index: 100;
+  font-size: 34rpx;
+  color: #888;
+}
+.input-area .text-area{
+  min-height: 80rpx;
+  padding: 40rpx;
+  background-color: #fff;
+}
+
+.result-area{
+  padding: 15rpx 30rpx;
+  min-height: 300rpx;
+  background-color: #fff;
+}
+.text-title{
+  font-size: 28rpx;
+  color: #8995a1;
+}
+.text-result{
+  padding: 12rpx 0;
+}

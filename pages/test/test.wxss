@@ -1,0 +1,4 @@
+.page-test{
+  color: brown;
+  font-size: 60rpx;
+}

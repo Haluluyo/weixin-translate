@@ -1,0 +1,26 @@
+.history-list{
+  display: flex;
+  flex-direction: column;
+  padding: 20rpx 40rpx;
+  background-color: #fff;
+}
+.title{
+  font-size: 26rpx;
+  color: #8995a1;
+}
+.item{
+  padding: 20rpx 10rpx;
+  border-bottom: 1px solid #ececec;
+}
+.query{
+  color: #8995a1;
+}
+.result{
+  margin-top: 16rpx;
+}
+.clear{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  padding: 20rpx;
+}

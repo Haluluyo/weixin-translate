@@ -1,0 +1,31 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/change/change",
+    "pages/history/history"
+  ],
+  "window":{
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1c1b21",
+    "navigationBarTitleText": "微信-translator",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#ccc" 
+  },
+  "tabBar":{
+    "position": "top",
+    "color": "#595959",
+    "selectedColor": "#1c1b21",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史记录"
+      }
+    ]
+  }
+}

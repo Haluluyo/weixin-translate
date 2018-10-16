@@ -1,0 +1,4 @@
+<view class="container page-test" bindtap="showName">hello {{ name }} !</view>
+<view wx:for="{{array}}">
+  {{index}}: {{item.message}}
+</view>
